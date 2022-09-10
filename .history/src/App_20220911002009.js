@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar />
-       <h1>Helell</h1>
+       
     </div>
   );
 }
