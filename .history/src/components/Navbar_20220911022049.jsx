@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <div className=' flex justify-around items-center  text-white h-24 max-w-[1240px] px-4 mx-auto'>
-      <h1 className='  animate__animated animate__animated animate__backInRight w-full text-3xl font-bold text-purple-600'>REACT.</h1>
-      <ul className='hidden md:flex  animate__animated animate__animated animate__backInRight'>
+      <h1 className='w-full text-3xl font-bold text-purple-600'>REACT.</h1>
+      <ul className='hidden md:flex '>
         <li className='p-4 border-purple-600  hover:border-b-2 '>Home</li>
         <li className='p-4 border-purple-600  hover:border-b-2'>Company</li>
         <li className='p-4 border-purple-600  hover:border-b-2 '>Resources</li>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+
 const Hero = () => {
   return (
     <div className='text-white'>
@@ -16,14 +17,14 @@ const Hero = () => {
           </p>
           <Typed
           className='md:text-3xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-            strings={['Hooks', 'practical', 'Formik','icons']}
+            strings={['Hooks', 'practical', 'Formi','']}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your website analytics to increase knowledge platforms.</p>
-        <button className='bg-purple-600 w-[200px]   rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
+        <button className='bg-purple-600 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
       </div>
     </div>
   );
